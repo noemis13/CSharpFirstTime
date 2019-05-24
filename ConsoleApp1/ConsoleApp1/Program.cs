@@ -1,15 +1,31 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
-{
-    class Program
-    {
-        static void Main(string[] args){
-            SimpleCalculator.Calculator();
-            
+namespace ConsoleApp1{
+
+    class Program{
+
+        enum DaysOfWeekeend {
+            Saturday,
+            Sunday
         }
 
+        static void Main(string[] args){
+            //SimpleCalculator.Calculator();
+            conditionalNot();
+            //Using enum
+            /*DaysOfWeekeend today = DaysOfWeekeend.Saturday;
+            Console.WriteLine(today);
+            */
+        }
+        static void conditionalNot() {
+            //(conditional)? true : false
+            int x = 10;
+            int y = 11;
+
+            int biggestNumber = x > y ? x : y;
+            Console.WriteLine(biggestNumber);
+        }
         static void Conditional() {
             //int x;
             //int y;
