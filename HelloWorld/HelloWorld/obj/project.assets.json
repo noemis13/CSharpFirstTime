@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Microsof Visual Studio Projects\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+      "projectUniqueName": "D:\\Github\\CSharpFirstTime\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "D:\\Microsof Visual Studio Projects\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+      "projectPath": "D:\\Github\\CSharpFirstTime\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
       "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-      "outputPath": "D:\\Microsof Visual Studio Projects\\HelloWorld\\HelloWorld\\obj\\",
+      "outputPath": "D:\\Github\\CSharpFirstTime\\HelloWorld\\HelloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

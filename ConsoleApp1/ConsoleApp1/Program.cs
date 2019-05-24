@@ -5,8 +5,12 @@ namespace ConsoleApp1
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+        static void Main(string[] args){
+            SimpleCalculator.Calculator();
+            
+        }
+
+        static void Conditional() {
             //int x;
             //int y;
             //x = 10;
@@ -28,18 +32,14 @@ namespace ConsoleApp1
 
             String message = "";
 
-            if(userValue == "1")
-            {
+            if (userValue == "1") {
                 message = "You choose 1";
-            }else if(userValue == "2")
-            {
+            } else if (userValue == "2") {
                 message = "You choose 2";
-            }else if(userValue == "3")
-            {
+            } else if (userValue == "3") {
                 message = "Yo choose 3";
-            }else
-            {
-                message= "Sorry, wrong number :(";
+            } else {
+                message = "Sorry, wrong number :(";
             }
             Console.WriteLine(message);
         }
