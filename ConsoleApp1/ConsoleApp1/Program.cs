@@ -5,14 +5,13 @@ namespace ConsoleApp1{
 
     class Program{
 
-        static void Main(string[] args){
+        static void Main(string[] args) {
             //SimpleCalculator.Calculator();
             //UsingLoop.hourlyPayRate();
             //UsingLoop.sumInt();
             //Arrays.binarySearch();
-            Arrays.sortArray();
-        }
+            Arrays.zipCode();
 
-       
+        }
     }
 }
