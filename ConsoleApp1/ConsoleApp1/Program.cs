@@ -9,6 +9,7 @@ namespace ConsoleApp1{
             //SimpleCalculator.Calculator();
             //UsingLoop.hourlyPayRate();
             //UsingLoop.sumInt();
+            Arrays.binarySearch();
         }
 
        
