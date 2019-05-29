@@ -49,5 +49,14 @@ namespace ConsoleApp1 {
                 Console.WriteLine("Position is: {0}", answer);
             }
         }
+
+        public static void sortArray() {
+            int[] numbers = { 30, 10, 150, 100, 20, 50 };
+            Array.Sort(numbers);
+
+            for(int i = 0; i< numbers.Length; i++) {
+                Console.WriteLine(numbers[i]);
+            }
+        }
     }
 }
