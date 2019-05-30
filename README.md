@@ -9,8 +9,7 @@
 
 2. Write a console-based application that sums the integers from 1 to 50
 
-3. EDIT TO USE LOOPS
-         Write a program that generates a random number between 1 and 10. Ask a user to guess the random number, then display the random number and a message indicating whether the user's guess was too high, too low, or correct.
+3. EDIT TO USE LOOPS: Write a program that generates a random number between 1 and 10. Ask a user to guess the random number, then display the random number and a message indicating whether the user's guess was too high, too low, or correct.
          ------HINT-------
          You can create a random number that is at least min but less than max using the following statements;
          Random randomGenerator = new Random();
