@@ -198,7 +198,49 @@ namespace ConsoleApp1 {
          *  strings Length property
          * 
          * */
+
+        public static void Hangman() {
+            string[] words = { "pineapple", "apple", "grape", "melon", "raspberry" };
+            Random random = new Random();
+            int randomIndex = random.Next(0, 5);
+            string randomWord = words[randomIndex];
+            
+            Console.WriteLine("HANGMAN GAME");
+            
+            string showWord = "";
+            for(int i = 0; i< randomWord.Length; i++) {
+                showWord += "*";
+            }
+
+            while (showWord.Contains("*")) {
+                Console.WriteLine("Your word:  {0}", showWord);
+                Console.WriteLine("Select a letter>> ");
+                char letter = char.Parse(Console.ReadLine());
+
+                bool containsLetter = false;
+
+                for (int i =0; i < randomWord.Length; i++) {
+                    if(randomWord[i] == letter) {
+                        showWord = showWord.Remove(i, 1);
+                        showWord = showWord.Insert(i, letter.ToString());
+                        containsLetter = true;
+                    } 
+                }
+                if(containsLetter == true) {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Yes! {0} is in the word", letter);
+                } else{
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Sorry, {0} is not in the word", letter);
+                }
+                Console.ResetColor();
+
+            }
+            //You won
+            Console.WriteLine("Congratulations! You win! The word was {0}", showWord);
+        }
+
     }
 
 }
-}
+

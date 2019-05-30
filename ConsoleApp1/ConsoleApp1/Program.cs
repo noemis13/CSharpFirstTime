@@ -10,7 +10,7 @@ namespace ConsoleApp1{
             //UsingLoop.hourlyPayRate();
             //UsingLoop.sumInt();
             //Arrays.binarySearch();
-            Arrays.zipCode();
+            Arrays.Hangman();
 
         }
     }
