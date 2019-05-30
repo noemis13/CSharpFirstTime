@@ -12,6 +12,9 @@ namespace ConsoleApp1{
             //Arrays.binarySearch();
             Arrays.Hangman();
 
+        
+
+
         }
     }
 }
