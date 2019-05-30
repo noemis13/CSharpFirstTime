@@ -29,5 +29,32 @@ namespace ConsoleApp1 {
         public static void GiveExtraCreditArray(int[] grades) {
             grades[0] += 3;
         }
+
+        /// <summary>
+        /// --------------------------------------------------------------------------
+        /// --------------------------------------------------------------------------
+        /// </summary>
+        //Lecture 43: Ref Keyword
+        static void RefKeword() {
+            int studentGrade = 75;
+            GiveExtraCreditRef(ref studentGrade);
+            Console.WriteLine(studentGrade);
+        }
+        public static void GiveExtraCreditRef(ref int studentGrade) {
+            studentGrade += 3;
+        }
+
+        //Lecture 44: Out Keyword
+        static void OutKeyword(string[] args) {
+            int add;
+            int mult;
+            AddandMult(5, 10, out add, out mult);
+            Console.WriteLine(add);
+            Console.WriteLine(mult);
+        }
+        public static void AddandMult(int a, int b, out int added, out int mult) {
+            added = a + b;
+            mult = a * b;
+        }
     }
 }
