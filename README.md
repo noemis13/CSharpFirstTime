@@ -1,6 +1,6 @@
 # CSharpFirstTime
 ## Fundamentals of Programming: Understanding C# 
-## - Using Data
+### - Using Data
 ## - Making decisions
 ## - Looping: 
 #### doWhile, while, for.
