@@ -10,9 +10,10 @@ namespace ConsoleApp1{
             //UsingLoop.hourlyPayRate();
             //UsingLoop.sumInt();
             //Arrays.binarySearch();
-            Arrays.Hangman();
+            // Arrays.Hangman();
 
-        
+            /* METHODS */
+            MethodsExercises.MainClass();
 
 
         }

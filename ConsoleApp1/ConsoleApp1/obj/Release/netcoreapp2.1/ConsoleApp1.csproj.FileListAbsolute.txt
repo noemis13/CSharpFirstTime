@@ -1,0 +1,11 @@
+D:\Github\CSharpFirstTime\ConsoleApp1\ConsoleApp1\bin\Release\netcoreapp2.1\ConsoleApp1.deps.json
+D:\Github\CSharpFirstTime\ConsoleApp1\ConsoleApp1\bin\Release\netcoreapp2.1\ConsoleApp1.runtimeconfig.json
+D:\Github\CSharpFirstTime\ConsoleApp1\ConsoleApp1\bin\Release\netcoreapp2.1\ConsoleApp1.runtimeconfig.dev.json
+D:\Github\CSharpFirstTime\ConsoleApp1\ConsoleApp1\bin\Release\netcoreapp2.1\ConsoleApp1.dll
+D:\Github\CSharpFirstTime\ConsoleApp1\ConsoleApp1\bin\Release\netcoreapp2.1\ConsoleApp1.pdb
+D:\Github\CSharpFirstTime\ConsoleApp1\ConsoleApp1\obj\Release\netcoreapp2.1\ConsoleApp1.csprojAssemblyReference.cache
+D:\Github\CSharpFirstTime\ConsoleApp1\ConsoleApp1\obj\Release\netcoreapp2.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Github\CSharpFirstTime\ConsoleApp1\ConsoleApp1\obj\Release\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache
+D:\Github\CSharpFirstTime\ConsoleApp1\ConsoleApp1\obj\Release\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
+D:\Github\CSharpFirstTime\ConsoleApp1\ConsoleApp1\obj\Release\netcoreapp2.1\ConsoleApp1.dll
+D:\Github\CSharpFirstTime\ConsoleApp1\ConsoleApp1\obj\Release\netcoreapp2.1\ConsoleApp1.pdb
