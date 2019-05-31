@@ -1,8 +1,8 @@
 # CSharpFirstTime
 ## Fundamentals of Programming: Understanding C# 
-##- Using Data
+## - Using Data
 ## - Making decisions
-##- Looping: 
+## - Looping: 
 #### doWhile, while, for.
 #### Exercises:
 1. Write a console-based application that prompts a user for an hourly pay rate. While the user enters values less than $5.65 or greater than $49.99, continue to prompt the user. Before the program ends, display the valid pay rate.
@@ -15,8 +15,8 @@
          Random randomGenerator = new Random();
          int randomNumber = randomGenerator.Next(min,max);  1, 11
          
-##- Arrays
-##- Methods: 
+## - Arrays
+## - Methods: 
 #### Creating methods, pass by reference and value, ref keyword, out keyword, params keyword, method overloading.
 #### Exercises:
 1. Create a console-based application whose Main() method asks the user to input an integer and then calls a method named MultiplicationTable(), which displays the results of multiplying the integer by each of the numbers 2 through 10.
@@ -27,5 +27,5 @@
 method that demonstrates the Sum() method works correctly when passed one, three, or five integers, or an array of ten integers.
 
 
-##- Classes
+## - Classes
 
